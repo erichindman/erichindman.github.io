@@ -48,18 +48,23 @@ body {
 }
 
 a {
-    text-decoration: none;
     color: darkblue;
-    font-weight: bold;
 }
 
 a:visited {
-    text-decoration: none;
+   color: darkblue;
 }
 
 @media (max-width: 750px) {
     body {
         padding: calc(10vw) calc(10vw); 
+        margin: 0 auto;
+    }
+}
+
+@media (max-device-width: 750px) {
+    body {
+        padding: calc(10vw) calc(10vw);
         margin: 0 auto;
     }
 }
