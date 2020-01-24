@@ -21,6 +21,10 @@ h2 em {
 	display: inline-block;
 }
 
+ul.primary-info {
+	list-style: disc;
+}
+
 ul {
 	margin-bottom: 30px;
 	margin-top: 5px;
